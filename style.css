@@ -1,0 +1,134 @@
+body{
+    font-family: "Segoe UI", sans-serif;
+    background: url('assets/bg.jpg')no-repeat center center fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.sidebar{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -3px;
+    text-align: center;
+    width: 300px;
+    float: left;
+    min-height: 100%;
+    background: #d4d4d4;
+    color: #625f5f;
+}
+.sidebar h2>span{
+    color: #838080;
+    font-size: 15px;
+    font-weight: 100;
+}
+img.circle{
+    margin-top: 20px;
+    max-width: 80%;
+    border-radius: 50%;
+}
+.social{
+    margin-bottom: 30px;
+}
+.social img{
+    max-width: 70px;
+}
+
+.kanan-luar{
+    width: 670px;
+    float: left;
+}
+.kanan-dalam{
+    color: #464646;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -3px;
+    padding:10px 40px;
+    background: #a6d7ed;
+    margin: 0px 30px;
+}
+.judul h1{
+    font-weight: 400;
+    border-bottom: solid rgba(70, 70, 70, 0.71) 3px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:870px){
+    .kanan-luar{
+        width: 100%;
+        float: none;
+    }
+    .social{
+        margin-bottom: 30px;
+    }
+    .social img{
+        max-width: 70px;
+    }
+    .kanan-dalam{
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px -3px;
+        padding:10px 40px;
+        background: #41b0e2;
+        margin: 10px 0px;
+    }
+    .desc-profile h2{
+        font-size: 50px;
+        line-height: 50px
+    }
+    .desc-profile h2>span{
+        font-size: 30px;
+    }
+    .container{
+        margin: 0px 10px;
+        max-width: 100%;
+    }
+    .sidebar{
+        vertical-align: center;
+        float: none;
+        width: 100%;
+    }
+    img.circle{
+        float: left;
+        margin-left: 20px;
+        width: 30%;
+    }
+    .desc-profile{
+        padding: 30px 0px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .kanan-luar{
+        width: 100%;
+        float: none;
+    }
+
+    .kanan-dalam{
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px -3px;
+        padding:10px 40px;
+        background: #41b0e2;
+    }
+    img.circle{
+        margin: 0 auto;
+        width: 180px;
+        float: none;
+        margin-top: 10px;
+    }
+    .sidebar{
+        float: none;
+        text-align: center;
+    }
+    .desc-profile{
+        padding: 0px 0px;
+    }
+    .social{
+        margin-bottom: 30px;
+    }
+    .social img{
+        max-width: 70px;
+    }
+}
